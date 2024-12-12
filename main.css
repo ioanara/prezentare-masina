@@ -1,0 +1,147 @@
+html * {
+    border: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #202020;
+    color: #A0A0A0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+body > * {
+    padding: 0 10%;
+}
+
+header {
+    padding-top: 5em;
+    padding-bottom: 3em;
+    background-color: black;
+    background-image: url('img/cool-white-car-ready-take-you-stars.jpg');
+    background-position: center right;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+nav {
+    background-color: #181818;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1em 3em;
+    color: #A0A0A0;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a.disabled-nav {
+    background-color: #282828;
+    pointer-events: none;
+}
+
+/* nav a.disabled-nav:hover {
+    background-color: #111111;
+    pointer-events: none;
+} */
+
+nav a:hover {
+    color: #B0B0B0;
+    background-color: black;
+}
+
+section {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: #A0A0A0;
+    color: #404040;
+}
+
+section h1 {
+    margin-bottom: 2em;
+}
+
+section img {
+    width: 30%;
+    display: inline-block;
+}
+
+section article { 
+    line-height: 2.5;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 1em;
+}
+
+section article h2 {
+    margin-top: 1em;
+}
+
+section article p {
+    text-align: justify;
+}
+
+section article h3 img {
+    width: 40px;
+    object-fit: cover;
+}
+
+.testimonial {
+    border: 1px solid #404040;
+    background-color: #C0C0C0;
+}
+
+.testimonial h3 {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #a8a8a8;
+}
+
+.testimonial h3 img {
+    display: inline-block;
+    margin-right: 1em;
+    vertical-align: middle;
+}
+
+.testimonial > img {
+    width: 150px;
+    float: right;
+    margin: 0;
+}
+
+.testimonial h3, .testimonial p {
+    width: 70%;
+}
+
+.testimonial p {
+    min-height: 135px;
+    display: inline-block;
+    padding-bottom: 15px;
+}
+
+.width60 {
+    width: 60%;
+    float: left;
+    
+}
+
+footer {
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+footer > * {
+    width: 60%;
+    margin-top: 10px;
+}
+
+footer ul {
+    display: inline-block;
+}
+
+footer p {
+    width: 30%;
+    display: inline-block;
+    text-align: right;
+}
